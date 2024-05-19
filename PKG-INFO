@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: user_api
+Version: 0.1.0
+Summary: 
+Author: Premansh Pareek
+Author-email: premanshpareek@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flask (>=3.0.3,<4.0.0)
+Requires-Dist: flask-sqlalchemy (>=3.1.1,<4.0.0)
+Requires-Dist: postgres (>=4.0,<5.0)
+Description-Content-Type: text/markdown
+
+About:
+
+This is a REST API written in python that performs CRUD operations to a USER database.
+
+Description:
+assignment: Contains all the python files.
+database: Contains the database Model to access the user.
+routes: Contains the blueprint and routes for users.
+
